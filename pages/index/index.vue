@@ -3,12 +3,20 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
+			<text class="title">{{sys_theme}}</text>
+			<text class="title">{{modal}}</text>
 		</view>
 	</view>
 </template>
 
 <script>
+	import {mapState} from 'vuex';
+	
 	export default {
+		computed: mapState({
+		    sys_theme: state => state.sys_theme,
+		    modal: state => state.modal.dialog.confirmText,
+		  }),
 		data() {
 			return {
 				title: 'ColorUI VUE 3'

@@ -1,0 +1,16 @@
+{
+  "name": "ColorUi",
+  "version": "1.0.0",
+  "description": "For Vue 3",
+  "repository": "git@github.com:carveybunt/ColorUi.git",
+  "author": "carveybunt <376377656@qq.com>",
+  "keywords": [
+      "ColorUI",
+      "VUE3"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "vuex": "^4.0.2"
+  }
+}
