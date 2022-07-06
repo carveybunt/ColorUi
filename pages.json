@@ -1,68 +1,248 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/guide/guide",
+			"style": {}
+		}, 
+		{
 			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "ColorUI VUE3"
-			}
+			"style": {}
+		},
+		// {
+		// 	"path": "pages/webview/webview",
+		// 	"style": {
+		// 		"navigationStyle": "default",
+		// 		"navigationBarBackgroundColor": "#FFFFFF",
+		// 		"navigationBarTextStyle": "black"
+		// 	}
+		// },
+		{
+			"path": "pages/document/home",
+			"style": {}
 		}
-	],
+		// {
+		// 	"path": "pages/template/home",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/community/home",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/find/home",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/my/home",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/swiper",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/tag",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/avatar",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/fixed",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/shadow",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/border",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/text",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/text-color",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/system",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/code",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/button",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/theme",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/radio",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/search/search",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/switch",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/modal",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/menu",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/toast",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/my/set",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/navbar",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/background",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/icon",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/iconfont",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/title",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/image",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/progress",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/loading",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/flex",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/card",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/list",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/grid",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/timeline",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/table",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/popover",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/drawer",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/collapse",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/tab",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/steps",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/refresh",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/input",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/checkbox",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/document/picker",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/demo/background",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/demo/avatar",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/demo/sys",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/article/article",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/article/guide/guide",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/parameter/parameter",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/demo/navbar",
+		// 	"style": {}
+		// }, {
+		// 	"path": "pages/demo/wallpaper",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {}
+		// }
+    ],
 	"easycom": {
-			"ui-(.*)": "@/ui/components/ui-$1/ui-$1.vue",
-			"app-(.*)": "@/app/components/app-$1/app-$1.vue"
+		"ui-(.*)": "@/ui/components/ui-$1/ui-$1.vue",
+		"app-(.*)": "@/app/components/app-$1/app-$1.vue"
+	},
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"defaultTitle": "",
+			"transparentTitle": "always",
+			"titlePenetrate": "YES",
+			"allowsBounceVertical": "NO"
 		},
-		"globalStyle": {
-			"mp-alipay": {
-				/* 支付宝小程序特有相关 */
-				"defaultTitle": "",
-				"transparentTitle": "always",
-				"titlePenetrate": "YES",
-				"allowsBounceVertical": "NO"
-			},
-			"app-plus": {
-				/* App特有相关 */
-				"bounce": "none"
-			},
-			// "disableScroll":true,
-			"pageOrientation": "auto",
-			"navigationBarTitleText": "ColoruiAppTemplate",
-			"navigationBarBackgroundColor": "#007AFF",
-			"backgroundColor": "#1b1b1b",
-			"backgroundColorTop": "#1b1b1b",
-			"backgroundColorBottom": "#262626",
-			"navigationStyle": "custom"
+		"app-plus": {
+			/* App特有相关 */
+			"bounce": "none"
 		},
-	"uniIdRouter": {},
+		// "disableScroll":true,
+		"pageOrientation": "auto",
+		"navigationBarTitleText": "ColoruiAppTemplate",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#1b1b1b",
+		"backgroundColorTop": "#1b1b1b",
+		"backgroundColorBottom": "#262626",
+		"navigationStyle": "custom"
+	},
 	"tabBar": {
-			"color": "#aaaaaa",
-			"selectedColor": "#007AFF",
-			"borderStyle": "black",
-			"backgroundColor": "#ffffff",
-			"list": [{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/tab_icon/document.png",
-				"selectedIconPath": "static/tab_icon/document_cur.png",
-				"text": "文档"
-			}, {
-				"pagePath": "pages/index/index",
-				"iconPath": "static/tab_icon/tpl.png",
-				"selectedIconPath": "static/tab_icon/tpl_cur.png",
-				"text": "模板"
-			}, {
-				"pagePath": "pages/index/index",
-				"iconPath": "static/tab_icon/comment.png",
-				"selectedIconPath": "static/tab_icon/comment_cur.png",
-				"text": "社区"
-			}, {
-				"pagePath": "pages/index/index",
-				"iconPath": "static/tab_icon/find.png",
-				"selectedIconPath": "static/tab_icon/find_cur.png",
-				"text": "发现"
-			}, {
-				"pagePath": "pages/index/index",
-				"iconPath": "static/tab_icon/my.png",
-				"selectedIconPath": "static/tab_icon/my_cur.png",
-				"text": "我的"
-			}]
-		}
+		"color": "#aaaaaa",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/document/home",
+			"iconPath": "static/tab_icon/document.png",
+			"selectedIconPath": "static/tab_icon/document_cur.png",
+			"text": "文档"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab_icon/tpl.png",
+			"selectedIconPath": "static/tab_icon/tpl_cur.png",
+			"text": "模板"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab_icon/comment.png",
+			"selectedIconPath": "static/tab_icon/comment_cur.png",
+			"text": "社区"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab_icon/find.png",
+			"selectedIconPath": "static/tab_icon/find_cur.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab_icon/my.png",
+			"selectedIconPath": "static/tab_icon/my_cur.png",
+			"text": "我的"
+		}]
+	}
 }

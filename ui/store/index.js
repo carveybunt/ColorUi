@@ -1,6 +1,6 @@
 import {createStore} from 'vuex'
-import app from '@/store/app.js'
-import modal from '@/store/modal.js'
+import app from '@/app/store'
+import modal from '@/ui/store/modal.js'
 
 const store = createStore({
 	// 存储状态
@@ -75,6 +75,7 @@ const store = createStore({
 	actions:{},
 	mutations:{},// 改变state 数据的唯一途径就是 commit <mutations>。 类似事件。必须是同步函数
 	modules:{
+		app,
 		modal
 	}// 
 })
