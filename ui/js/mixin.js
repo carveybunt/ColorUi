@@ -38,7 +38,6 @@ const mixins = {
 		}
 	},
 	created() {
-		console.log('mixin')
 		if (this._uid != this.$root._uid) {
 			this._onShow();
 		}
@@ -135,11 +134,8 @@ const mixins = {
 			}
 		},
 		_toHome() {
-			console.log(this.$store.state.app.homePath)
-			console.log('toHome')
 			uni.switchTab({
-				// url: this.sys_homePath,
-				url: this.$store.state.app.homePath,
+				url: this.sys_homePath,
 				fail(res) {
 					console.log(res);
 				}

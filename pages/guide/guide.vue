@@ -9,7 +9,7 @@
 </template>
 
 <script>
-	import { getCurrentInstance, ComponentInternalInstance } from 'vue'
+	// import { getCurrentInstance, ComponentInternalInstance } from 'vue'
 	
 	var _this = null;
 	export default {
@@ -23,7 +23,6 @@
 			setTimeout(()=>{
 				// console.log(this.$store.state.modal.dialog.confirmText)
 				_this._toHome()
-				// this.toHome();
 			},1500)
 		},
 		methods: {
