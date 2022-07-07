@@ -22,5 +22,5 @@
 
 <style lang="scss">
 	/*每个页面公共css */
-	// @import '@/ui/scss/ui';
+	@import './ui/scss/ui.scss';
 </style>
